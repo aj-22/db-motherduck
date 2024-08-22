@@ -1,0 +1,89 @@
+[0m12:51:18.309943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FAB135090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FAB135190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FAB134D10>]}
+
+
+============================== 12:51:18.319957 | 893f7245-b1f5-49de-83f9-8a1f2d6ea320 ==============================
+[0m12:51:18.319957 [info ] [MainThread]: Running with dbt=1.8.5
+[0m12:51:18.320906 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\ajink\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:51:40.465583 [debug] [MainThread]: Starter project path: C:\projects\sandbox-dbt\menv\Lib\site-packages\dbt\include\starter_project
+[0m12:51:40.566655 [info ] [MainThread]: 
+Your new dbt project "ducking" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:51:40.570652 [info ] [MainThread]: Setting up your profile.
+[0m12:51:45.184291 [debug] [MainThread]: Command `dbt init` succeeded at 12:51:45.184291 after 27.00 seconds
+[0m12:51:45.185304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FA5CEB6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FA5C63790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FA5C63850>]}
+[0m12:51:45.186338 [debug] [MainThread]: Flushing usage events
+[0m12:52:29.005184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFF335610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFF36BD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFEEECBD0>]}
+
+
+============================== 12:52:29.007185 | 9d185376-c719-47c6-b5a5-91e698cfb08e ==============================
+[0m12:52:29.007185 [info ] [MainThread]: Running with dbt=1.8.5
+[0m12:52:29.009184 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ajink\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug --config-dir', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:52:29.029892 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\ajink\.dbt
+[0m12:52:29.032012 [debug] [MainThread]: Command `dbt debug` succeeded at 12:52:29.032012 after 0.12 seconds
+[0m12:52:29.032012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CFF36AC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CF9C63850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017CF9C62C90>]}
+[0m12:52:29.033011 [debug] [MainThread]: Flushing usage events
+[0m13:04:41.380422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC14934E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC14934F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC14934910>]}
+
+
+============================== 13:04:41.383365 | 8aa07d86-273e-4fe0-914b-cc1fba786ed5 ==============================
+[0m13:04:41.383365 [info ] [MainThread]: Running with dbt=1.8.5
+[0m13:04:41.384362 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ajink\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:04:41.395887 [info ] [MainThread]: dbt version: 1.8.5
+[0m13:04:41.396887 [info ] [MainThread]: python version: 3.11.9
+[0m13:04:41.397887 [info ] [MainThread]: python path: C:\projects\sandbox-dbt\menv\Scripts\python.exe
+[0m13:04:41.398887 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m13:04:41.403887 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlserver'
+[0m13:04:41.406886 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m13:04:41.410886 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m13:04:41.414886 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m13:04:41.417883 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m13:04:41.421887 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m13:04:41.425885 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m13:04:41.429887 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlserver'
+[0m13:04:41.448933 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'MOTHERDUCK_TOKEN'
+[0m13:04:41.451946 [debug] [MainThread]: Command `dbt debug` failed at 13:04:41.450932 after 0.17 seconds
+[0m13:04:41.451946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC1492E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC14967350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC1494D150>]}
+[0m13:04:41.452888 [debug] [MainThread]: Flushing usage events
+[0m13:10:42.696131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9E7C353D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9E7C34090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9E7C34E50>]}
+
+
+============================== 13:10:42.700134 | 020841c2-b79a-4ea4-a364-d1146d4fa512 ==============================
+[0m13:10:42.700134 [info ] [MainThread]: Running with dbt=1.8.5
+[0m13:10:42.701131 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\ajink\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug --config-dir', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:10:42.712642 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\ajink\.dbt
+[0m13:10:42.714735 [debug] [MainThread]: Command `dbt debug` succeeded at 13:10:42.714735 after 0.09 seconds
+[0m13:10:42.714735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9E7C6BB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9E2A137D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9E2A12C10>]}
+[0m13:10:42.714735 [debug] [MainThread]: Flushing usage events
+[0m13:12:39.284729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AE6B230BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AE6B230C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AE6B230690>]}
+
+
+============================== 13:12:39.287725 | 6424d2bc-cf01-4352-8b3c-bb623c8cf2dd ==============================
+[0m13:12:39.287725 [info ] [MainThread]: Running with dbt=1.8.5
+[0m13:12:39.288785 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ajink\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run-operation output_variables', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:12:39.289692 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\projects\sandbox-dbt\db-motherduck\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:12:39.290722 [debug] [MainThread]: Command `dbt run-operation` failed at 13:12:39.290722 after 0.07 seconds
+[0m13:12:39.291732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AE66012C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AE6B26AED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AE6B26BE90>]}
+[0m13:12:39.291732 [debug] [MainThread]: Flushing usage events

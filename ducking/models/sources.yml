@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: nyc
+    database: sample_data
+    schema: nyc
+    tables:
+      - name: rideshare
+      - name: service_requests
+      - name: taxi
